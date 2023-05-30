@@ -1,4 +1,4 @@
-var age = 10;
+var age = 20;
 if (age >= 18) {
     console.log("Es mayor de edad");
 }
