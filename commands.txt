@@ -1,0 +1,16 @@
+//Convertir de Ts a Js
+tsc index.ts
+
+//Ejecutar archivo Js transpilado
+node index.js
+
+// Inicializar proyecto node
+npm init -y
+
+//Crear comando en package json
+
+// Comando start
+npm start
+
+//Uso de comando outDir para crear proyecto en carpeta
+"start": "tsc --outDir dist index.ts && node dist/index.js",
