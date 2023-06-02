@@ -36,6 +36,14 @@ function getBook(): Book {
 const myBook = getBook()
 console.log(myBook.title);
 
-function createBook(book: Book):Book {
+function createBook(book: Book): Book {
     return book
 }
+
+const newBook: Book = {
+    id: 2,
+    title: 'It',
+    author: 'Stephen King',
+    coauthor: 'Juan'
+}
+createBook(newBook)
