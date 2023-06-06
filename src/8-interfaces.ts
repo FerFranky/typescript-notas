@@ -3,6 +3,7 @@ interface Book {
     title: string;
     author: string;
     coauthor?: string;
+    isLoan?: (id: number) => void 
 }
 
 const book: Book = {
